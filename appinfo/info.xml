@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Derek Schmidt <im@skeh.site>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>scheduler</id>
+    <name>Scheduler</name>
+    <summary>Automatic time-block scheduling</summary>
+    <description><![CDATA[Automatically schedules time-blocks on your Calendar for items assigned to you in Tasks and Deck]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="im@skeh.site" >Derek Schmidt</author>
+    <namespace>Scheduler</namespace>
+    <category>organization</category>
+    <category>tools</category>
+    <bugs>https://github.com/Skehmatics/Scheduler/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Scheduler</name>
+            <route>scheduler.page.index</route>
+        </navigation>
+    </navigations>
+</info>
